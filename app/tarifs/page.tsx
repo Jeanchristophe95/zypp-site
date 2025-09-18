@@ -36,8 +36,8 @@ export default function TarifsPage() {
           marginTop: 16,
         }}>
           <h2 style={{ margin: 0, fontSize: 20, fontWeight: 700, marginBottom: 12 }}>Notre service</h2>
-          <p>ZYPP est une startup proposant la location de trottinettes électriques en libre-service 24h/24. Elle vient d'avoir l'autorisation de s'installer sur la ville de Montpellier dès janvier 2025 avec un parc de 1000 trottinettes sans borne d'attache.</p>
-          <p>Ses trottinettes électriques seront accessibles au moyen d'un simple smartphone muni de l'application.</p>
+          <p>ZYPP est une startup proposant la location de trottinettes électriques en libre-service 24h/24. Elle vient d&apos;avoir l&apos;autorisation de s&apos;installer sur la ville de Montpellier dès janvier 2025 avec un parc de 1000 trottinettes sans borne d&apos;attache.</p>
+          <p>Ses trottinettes électriques seront accessibles au moyen d&apos;un simple smartphone muni de l&apos;application.</p>
         </section>
 
         <section style={{
@@ -50,7 +50,7 @@ export default function TarifsPage() {
           marginTop: 16,
         }}>
           <h2 style={{ margin: 0, fontSize: 20, fontWeight: 700, marginBottom: 12 }}>Tarifs – location trottinette Montpellier</h2>
-          <p>Le tarif : 1 euro la location puis 15 centimes par minute. Un trajet d'un quart d'heure coûtera donc 3,25 euros.</p>
+          <p>Le tarif : 1 euro la location puis 15 centimes par minute. Un trajet d&apos;un quart d&apos;heure coûtera donc 3,25 euros.</p>
         </section>
 
         <section style={{
@@ -63,7 +63,7 @@ export default function TarifsPage() {
           marginTop: 16,
         }}>
           <h2 style={{ margin: 0, fontSize: 20, fontWeight: 700, marginBottom: 12 }}>Comment ça marche</h2>
-          <p>Une fois le trajet effectué, on dépose la trottinette sur un trottoir dans une zone de dépose banalisée (vérifiable sur l'application mobile grâce à la géolocalisation) et on prend soin de la verrouiller via l'application pour conclure la location.</p>
+          <p>Une fois le trajet effectué, on dépose la trottinette sur un trottoir dans une zone de dépose banalisée (vérifiable sur l&apos;application mobile grâce à la géolocalisation) et on prend soin de la verrouiller via l&apos;application pour conclure la location.</p>
           <p>Les trottinettes seront ramassées toutes les nuits de 21h à 6h du matin pour être rechargées et entretenues si besoin.</p>
         </section>
 
@@ -77,7 +77,7 @@ export default function TarifsPage() {
           marginTop: 16,
         }}>
           <h2 style={{ margin: 0, fontSize: 20, fontWeight: 700, marginBottom: 12 }}>Devenir rechargeur</h2>
-          <p>Afin de minimiser les ressources nécessaires pour la recharge des trottinettes, ZYPP cherche à recruter des particuliers prêts à réaliser la recharge à leur domicile en échange d'une rémunération ou de tarifs préférentiels sur la location.</p>
+          <p>Afin de minimiser les ressources nécessaires pour la recharge des trottinettes, ZYPP cherche à recruter des particuliers prêts à réaliser la recharge à leur domicile en échange d&apos;une rémunération ou de tarifs préférentiels sur la location.</p>
         </section>
       </div>
     </main>

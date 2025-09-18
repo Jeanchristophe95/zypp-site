@@ -24,7 +24,7 @@ export default function DevenirRechargeurPage() {
       if (!res.ok) throw new Error('Request failed');
       setMessage('Merci ! Votre candidature a été envoyée.');
       (event.currentTarget as HTMLFormElement).reset();
-    } catch (e) {
+    } catch {
       setMessage("Une erreur est survenue. Réessayez.");
     } finally {
       setIsSubmitting(false);

@@ -12,7 +12,7 @@ export async function POST(req: Request) {
       data: { fullName, email, phone, city, availability, note },
     });
     return NextResponse.json(created, { status: 201 });
-  } catch (error) {
+  } catch {
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }

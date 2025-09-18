@@ -13,14 +13,13 @@ export default function ContactPage() {
     setMessage(null);
     setIsSubmitting(true);
     const formData = new FormData(event.currentTarget);
-    const payload = Object.fromEntries(formData.entries());
 
     try {
       // Simulate API call
       await new Promise((r) => setTimeout(r, 1000));
       setMessage('Merci ! Votre message a été envoyé.');
       (event.currentTarget as HTMLFormElement).reset();
-    } catch (e) {
+    } catch {
       setMessage("Une erreur est survenue. Réessayez.");
     } finally {
       setIsSubmitting(false);
